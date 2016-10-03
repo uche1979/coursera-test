@@ -65,10 +65,8 @@ li
 }
 
 #main-content > #actual-content{
-	background-color: grey;
-	padding: 5px;
+	background-color: grey;	
 	
-
 }
 
 @media (max-width: 768px) {
@@ -76,6 +74,17 @@ li
 	.pad-mobilecontent{
 		margin-left: 30px;
 		margin-right: 30px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
+@media (max-width: 3200px) and (min-width: 769px){
+
+	.pad-mobilecontent{
+		
+		padding-right: 15px;
+		padding-left: 15px;
 	}
 }
 
